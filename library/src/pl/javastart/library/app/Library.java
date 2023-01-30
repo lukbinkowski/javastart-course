@@ -13,9 +13,11 @@ public class Library {
                 "9788324620845");
         books[2] = new Book("SCJP Sun Certified Programmer for Java 6 Study Guide", "Bert Bates, Katherine Sierra",
                 2008, 851, "McGraw-Hill Osborne Media");
+        books[3] = new Book("Tytul", "Autor", 2022 ,100, "Publisher","isbn00001");
 
         books[0].printInfo();
         books[1].printInfo();
         books[2].printInfo();
+        books[3].printInfo();
     }
 }
