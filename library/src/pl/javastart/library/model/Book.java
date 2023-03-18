@@ -1,14 +1,12 @@
 package pl.javastart.library.model;
 
-public class Book extends Publication{
+public class Book extends Publication {
     private String author;
     private int pages;
     private String isbn;
 
     public Book(String title, String author, int year, int pages, String publisher, String isbn) {
-        this.setYear(year);
-        this.setTitle(title);
-        this.setPublisher(publisher);
+        super(title, publisher, year);
         this.author = author;
         this.pages = pages;
         this.isbn = isbn;
