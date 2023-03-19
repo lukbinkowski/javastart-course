@@ -35,4 +35,10 @@ public class Publication {
     public void setPublisher(String publisher) {
         this.publisher = publisher;
     }
+
+    public void printInfo() {
+        String info = getTitle() + " ; "  + getYear() + " ; " + getPublisher();
+        System.out.println(info);
+    }
+
 }
